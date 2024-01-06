@@ -24,10 +24,6 @@ html {
   background-color: rgba(0, 119, 255, 0.692);
   border-radius: 30px;
 }
-@media screen and (max-width: 1115px) {
-  .App {
-    /* background-image: none; */
-    /* background-color: #1f1f1f; */
-  }
-}
+/* @media screen and (max-width: 1115px) {
+} */
 
