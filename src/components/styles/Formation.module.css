@@ -1,0 +1,120 @@
+.formation {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formation h2 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    padding: 10px;
+    margin: 5px;
+    color: #3498db;
+
+}
+.formation h3{
+    margin-bottom: 25px;
+}
+
+.informationbox {
+    padding-top: 35px;
+    display: flex;
+    width: 1120px;
+    border-radius: 10px;
+    border-top: solid 2px #14a5df;
+    border-bottom: solid 2px rgba(15, 138, 187, 0.719);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.38) 3.07%, rgb(14 93 165 / 30%) 88.06%);
+    box-shadow: -20px 20px 20px -1px rgb(23 33 39);
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.informationbox img {
+    border-radius: 15px;
+}
+
+.infoUni {
+    width: 580px;
+    padding: 25px 6px;
+}
+
+.infoUni h1 {
+    border-bottom: solid 1px rgb(82, 82, 82);
+    border-bottom-right-radius: 5px;
+}
+
+.infoUni p {
+    color: #cfcfcf;
+    font-size: 1.1rem;
+    font-family: roboto;
+    margin: 20px 0 0;
+    text-indent: 50px;
+    padding: 10px;
+    line-height: 1.8;
+    display: flex;
+}
+
+.informationbox img {
+    width: 440px;
+    height: 350px;
+    margin: 15px 0 0;
+}
+
+.formationItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 45px;
+    padding-bottom: 80px;
+}
+
+.infoUni a {
+    padding-left: 15PX;
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+.infoUni a:hover {
+    color: #2980b9;
+
+}
+
+
+@media screen and (max-width: 1185px) {
+    .informationbox {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        
+
+    }
+    .formationItem{
+        width: 80%;
+        padding-bottom: 15px;
+    }
+
+
+    .informationbox img{
+        
+        width: 50%;
+        height: 50%;
+    }
+    .infoUni{
+        overflow-y: auto;
+        height: 300px;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .formationItem img{
+        display: none;
+    }
+    }

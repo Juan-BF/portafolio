@@ -1,0 +1,150 @@
+.secFormulario {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    color: #cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    width: 1120px;
+    height: 500px;
+    border-radius: 10px;
+    border-top: solid 2px #14a5df;
+    border-bottom: solid 2px rgba(15, 138, 187, 0.719);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.38) 3.07%, rgb(14 93 165 / 30%) 88.06%);
+    box-shadow: -20px 20px 20px -1px rgb(23 33 39);
+}
+
+.formulario h1 {
+    padding: 15px 40px;
+    font-size: 3.5rem;
+    color: #39a5ecc4;
+
+}
+
+.formularioInf p {
+    text-indent: 50px;
+    line-height: 1.6;
+    width: 500px;
+    font-size: 1.5rem;
+
+}
+
+.formularioInf {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border-right: 1px solid #14a5df;
+}
+
+.formularioRe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.formularioRe form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.formularioRe form input {
+    background-color: #0d1e2e;
+    width: 500px;
+    height: 42px;
+    border: 1px solid #2e83bb;
+    border-radius: 15px;
+    transition: border-color 0.3s ease-in-out;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    margin: 3px 0 25px 0;
+    color: #cfcfcf;
+    font-size: 1.4rem;
+    padding: 0 10px;
+
+
+}
+
+.formularioRe form label {
+    margin-left: 10px;
+}
+
+.formularioRe form input:focus,
+.formularioRe form textarea:focus {
+    border-color: rgb(0, 238, 255);
+}
+
+.formularioRe form textarea {
+    background-color: #0d1e2e;
+    width: 500px;
+    height: 150px;
+    border: 1px solid #2e83bb;
+    border-radius: 15px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    margin: 3px 0 25px 0;
+    color: #cfcfcf;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.formularioRe form input[type="submit"] {
+    background-color: #3c5863;
+    width: 200px;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #00000000;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1240px) {
+    .formularioInf h1 {
+        padding: 5px 3px 10px ;
+        font-size: 1.5rem;
+        
+    }
+
+    .formulario p {
+        font-size: 1.1rem;
+        width: 80%;
+    }
+
+    .formulario {
+        width: 80%;
+        height: 80%;
+    }
+
+    .formularioRe form input {
+        width: 100%;
+    }
+    .formularioRe form textarea {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .formularioInf{
+        width: 100%;
+    }
+    .formularioRe{
+        width: 100%;
+    }
+   .formularioRe form{
+    width: 100%;
+   }
+}

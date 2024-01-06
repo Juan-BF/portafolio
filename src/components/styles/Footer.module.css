@@ -1,0 +1,51 @@
+.footer{
+    /* background-color: #c79797; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    height: 190px;
+     background-color: #060a11;
+}
+.footerInf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+   
+}
+
+.footerInf span{
+    transform: translate(-15px, -4px);
+} 
+.footer img {
+    width: 100px;
+    height: 100px;
+}
+.footerInf h2 {
+    font-family: 'Times New Roman', Times, serif;
+    transform: translate(-20px, -9px);
+    font-size: 2.5rem;
+    color: gainsboro;
+}
+.listaRedes ul a{
+    text-decoration: none; 
+    color: inherit;
+    cursor: pointer;
+    color: aliceblue;
+}
+.listaRedes ul a:hover{
+    color: rgb(64, 159, 241);
+}
+
+
+
+.listaRedes ul{ 
+    font-size: 1.1rem;
+    gap: 20px;
+    display: flex;
+}
