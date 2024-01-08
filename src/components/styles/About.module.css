@@ -6,8 +6,13 @@
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
+    flex-direction: column;
 }
-
+.boxAbout h1{
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
 #About {
     opacity: 0;
     transform: translateY(20px);
@@ -20,27 +25,32 @@
 }
 
 .about {
-    height: 500px;
+    min-width: 500px;
+    width: 65%;
     padding: 30px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.38) 3.07%, rgb(14 93 165 / 30%) 88.06%);
+    background: var(--background-color);
     display: flex;
     align-items: flex-start;
     justify-content: center;
     gap: 60px;
-    border-top: solid 2px #14a5df;
-    border-bottom: solid 2px rgba(15, 138, 187, 0.719);
+    /* border-top: solid 2px #14a5df; */
+    /* border-bottom: solid 2px rgba(15, 138, 187, 0.719); */
     border-radius: 15px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    box-shadow: -20px 20px 20px -1px rgb(23 33 39);
-
+    /* filter: blur(1px); */
+    /* box-shadow: -20px 20px 20px -1px rgb(23 33 39); */
 }
+
+
+
+
 .aboutImg {
- 
+
     -webkit-animation: morph 8s ease-in-out infinite;
     animation: morph 8s ease-in-out infinite;
-    background-image: url(/foto.png);
+    background-image: url(/src/imagenes/about/foto.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #6271789c;
@@ -53,6 +63,7 @@
     margin: 0 0 0 50px;
 
 }
+
 @keyframes morph {
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -77,15 +88,12 @@
 }
 
 .aboutInf {
-    color: #cfcfcf;
     font-size: 1.1rem;
     font-family: roboto;
-    margin: 35px 0 0;
     text-indent: 50px;
-    padding: 10px;
-    line-height: 1.8;
-    width: 500px;
-    height: 355px;
+    line-height: 2;
+    width: 700px;
+    height: 400px;
 
 }
 
@@ -93,7 +101,7 @@
     color: #cfcfcf;
     font-size: 1.1rem;
     font-family: roboto;
-    margin: 20px 0 0;
+    margin: 20px 0;
     text-indent: 50px;
     padding: 10px;
     line-height: 1.8;
@@ -129,7 +137,8 @@
 
 .aboutInf h1 {
     font-size: 2.5rem;
-    color: #0099ff;;
+    color: #0099ff;
+    font-weight: 100;
 }
 
 
@@ -171,15 +180,19 @@
         padding-bottom: 30px;
         font-size: 1.2rem;
     }
-    .aboutInf h1{
+
+    .aboutInf h1 {
         font-size: 1.8rem;
     }
-.aboutInf p{
-    margin-top: 2px;
-}
-    .bioCorta{
+
+    .aboutInf p {
+        margin-top: 2px;
+    }
+
+    .bioCorta {
         padding-bottom: 30px;
     }
+
     .aboutImg {
         height: 50%;
         width: 50%;
@@ -189,14 +202,16 @@
 }
 
 @media screen and (max-width: 700px) {
-.about{
-    width: 80%;
+    .about {
+        width: 80%;
 
-}
-.aboutImg{
-    display: none;
-}
-.formationItem img{
-    display: none;
-}
+    }
+
+    .aboutImg {
+        display: none;
+    }
+
+    .formationItem img {
+        display: none;
+    }
 }

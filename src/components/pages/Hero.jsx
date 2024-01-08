@@ -1,4 +1,5 @@
 import Button from "../Button"
+import imagenes from "../../imagenes/imagenes"
 import styles from "../styles/Hero.module.css"
 
 
@@ -15,9 +16,9 @@ const Hero = () => {
                                 Front-end </strong> em <strong>React</strong> com o objetivo de se tornar um <strong>Full-Stack.</strong>
                         </p>
                         <div className={styles.social}>
-                            <a href="https://www.linkedin.com/in/juan-vicente-bejarano-fernandez-062089239/"><div></div>
+                            <a href="https://www.linkedin.com/in/juan-vicente-bejarano-fernandez-062089239/" target="_blank" rel="noopener noreferrer"><div></div>
                             </a>
-                            <a href="https://github.com/Juan-BF"><div></div></a>
+                            <a href="https://github.com/Juan-BF" target="_blank" rel="noopener noreferrer"><div></div></a>
                             <Button
                             textInf='Resumo'
                             />
@@ -33,16 +34,16 @@ const Hero = () => {
                     </h3>
 
                     <ul>
-                        <li><img src="/stack/html.png" alt="imagen html" /></li>
-                        <li><img src="/stack/css.png" alt="imagen de css" />
+                        <li><img src={imagenes.html} alt="imagen html" /></li>
+                        <li><img src={imagenes.css} alt="imagen de css" />
                         </li>
-                        <li><img src="/stack/javascript.png" alt="imagen de javscript" /></li>
-                        <li><img src="/stack/typescript.png" alt="imagen de typescrips" />
+                        <li><img src={imagenes.javascript}  alt="imagen de javascript" /></li>
+                        <li><img src={imagenes.typescript}  alt="imagen de typescrips" />
                         </li>
-                        <li><img src="/stack/react.png" alt="imagen de react" />
+                        <li><img src={imagenes.react}  alt="imagen de react" />
                         </li>
-                        <li><img src="/stack/sass.png" alt="imagen de sass" /></li>
-                        <li><img src="/stack/tailwindcss.png" alt="imagen de tailwindcss" />
+                        <li><img src={imagenes.sass}  alt="imagen de sass" /></li>
+                        <li><img src={imagenes.tailwindcss}  alt="imagen de tailwindcss" />
                         </li>
                     </ul>
                     

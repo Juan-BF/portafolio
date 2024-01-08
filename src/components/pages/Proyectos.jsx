@@ -1,77 +1,35 @@
-import Link from "../direcciones/link"
+import Cards from "../direcciones/cards"
 import styles from "../styles/Proyectos.module.css"
+import constru from "../../imagenes/const.webp"
+
 
 const Proyectos = () => {
   return (
     <>
       <section id="Projectos" className={styles.boxProyectos}>
+      <h1>Proyectos</h1>
         <div className={styles.listaProjectos}>
-          <ul className={styles.container}>
-            <li className={styles.box}>
-              <div className={styles.content}>
-              <h3>Responsividade e Atratividade.</h3>
-              <p>Responsividade e Atratividade.</p>
-                <img className={styles.imagen} src="./proyectos/huddle.png" alt="" />
-                <Link
-                  titulo="Huddle"
-                  referente="HTML-CSS"
-                  linkGithub="https://github.com/Juan-BF/project-huddle-landing-page"
-                  linkweb="https://juan-bf.github.io/project-huddle-landing-page/"
-                />
-              </div>
+          <ul className={styles.cardsList}>
+            <li className={styles.cards}>
+              <Cards
+              img={constru}
+              titulo={"titulo"}
+              referente={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta vel ut cum adipisci repellat asperiores illum perferendis harum explicabo optio aliquid"} 
+              />
             </li>
-            <li className={styles.box}>
-              <div className={styles.content}>
-                <h3>Responsividade e Atratividade.</h3>
-                <p>Página informativa que desafia a adaptação do desktop para smartphones.</p>
-                <img className={styles.imagen} src="./proyectos/huddle.png" alt="imagen de huddle" />
-                <Link
-                  titulo="Huddle"
-                  referente="HTML-CSS"
-                  linkGithub="https://github.com/Juan-BF/project-huddle-landing-page"
-                  linkweb="https://juan-bf.github.io/project-huddle-landing-page/"
-                />
-              </div>
+            <li className={styles.cards}>
+            <Cards
+              img={constru}
+              titulo={"titulo"}
+              referente={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta vel ut cum adipisci repellat asperiores illum perferendis harum explicabo optio aliquid"} 
+              />
             </li>
-            <li className={styles.box}>
-
-              <div className={styles.content}>
-              <h3>Responsividade e Atratividade.</h3>
-              <p>Exploração de Dados GitHub: Projeto de Consulta à API.</p>
-                <img className={styles.imagen} src="./proyectos/proyectoGithubAPI.png" alt="imagen github" />
-                <Link
-                  titulo="Github-API"
-                  referente="HTML-CSS-JS"
-                  linkGithub="https://github.com/Juan-BF/Quest-Api-Github"
-                  linkweb="https://juan-bf.github.io/Quest-Api-Github/"
-                />
-              </div>
-            </li>
-            <li className={styles.box}>
-              <div className={styles.content}>
-              <h3>Responsividade e Atratividade.</h3>
-              <p>Responsividade e Atratividade.</p>
-                <img className={styles.imagen} src="./proyectos/huddle.png" alt="" />
-                <Link
-                  titulo="Huddle"
-                  referente="HTML-CSS"
-                  linkGithub="https://github.com/Juan-BF/project-huddle-landing-page"
-                  linkweb="https://juan-bf.github.io/project-huddle-landing-page/"
-                />
-              </div>
-            </li>
-            <li className={styles.box}>
-              <div className={styles.content}>
-              <h3>Responsividade e Atratividade.</h3>
-              <p>Responsividade e Atratividade.</p>
-                <img className={styles.imagen} src="./proyectos/huddle.png" alt="" />
-                <Link
-                  titulo="Huddle"
-                  referente="HTML-CSS"
-                  linkGithub="https://github.com/Juan-BF/project-huddle-landing-page"
-                  linkweb="https://juan-bf.github.io/project-huddle-landing-page/"
-                />
-              </div>
+            <li className={styles.cards}>
+            <Cards
+              img={constru}
+              titulo={"titulo"}
+              referente={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta vel ut cum adipisci repellat asperiores illum perferendis harum explicabo optio aliquid"} 
+              />
             </li>
           </ul>
         </div>

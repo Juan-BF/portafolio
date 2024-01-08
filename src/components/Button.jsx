@@ -12,7 +12,7 @@ const Button = ({textInf}) => {
 }
 
 Button.propTypes = {
-  textInf: PropTypes.string.isRequired, // Ajusta el tipo según lo que esperes para 'texto'
+  textInf: PropTypes.string.isRequired, 
 };
 
 export default Button

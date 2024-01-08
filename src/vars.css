@@ -8,4 +8,5 @@
     --color-AzulClaro:#00e5ff;
     /*Fuentes*/
     --font-robot: "Roboto";
+    --background-color: linear-gradient(90deg, rgb(60 56 84 / 65%) 3.07%, rgb(30 24 66) 88.06%); ;
 }

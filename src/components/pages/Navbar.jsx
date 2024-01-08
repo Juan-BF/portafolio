@@ -1,4 +1,5 @@
 import styles from "../styles/Navbar.module.css"
+import logo from "../../imagenes/logo.png"
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -7,7 +8,7 @@ export const Navbar = () => {
     <>
       <nav className={styles.navbar}>
         <a className={styles.title} href="#Hero">
-          <img src="/Logo.png" alt="imagen del logo" />
+          <img src={logo} alt="imagen del logo" />
         </a>
         <div className={styles.menu}>
           <input type="checkbox" id="opcion" className={styles.inputb} onClick={() => setMenuOpen(!menuOpen)}>
