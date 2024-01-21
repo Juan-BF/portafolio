@@ -1,11 +1,12 @@
 .boxProyectos {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 100px 0 100px 0;
   flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
 
 }
 
@@ -13,11 +14,13 @@
   font-weight: 200;
   font-size: 2.5rem;
   margin-bottom: 30px;
+  background: linear-gradient(to right, #0d0b1d, #268187);
+  border-radius: 10px;
 }
 
 .listaProjectos {
   z-index: 1;
-  max-width: 65%;
+  max-width: 75%;
   padding: 80px 30px 80px 30px;
   background: var(--background-color);
   display: flex;
@@ -33,7 +36,24 @@
 
 .cardsList {
   display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 35px;
+  justify-content: space-between;
+}
+.cardsList .cards:nth-child(1) {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #268187;
+}
+
+@media screen and (max-width: 640px) {
+  .informationbox {
+    max-width: 10%;
+  }
+
 }
 
 @media screen and (max-width: 1185px) {
@@ -45,11 +65,57 @@
 
   }
 
+  .informationbox {
+    max-width: 80%;
+  }
+
   .listaProjectos {
     width: 100%;
   }
 
   .boxProyectos {
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 1850px) {
+  .cardsList {
+    /* display: flex;
+    flex-direction: row; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1930px) {
+  .cardsList {
+    display: flex;
+    flex-direction: row;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .listaProjectos {
+    max-width: 95%;
+  }
+
+  .boxCards {
+    width: 100%
+  }
+
+  .boxLink a {
+    width: 10%;
+  }
+
+  .boxProyectos {
+    >h1 {
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+    }
   }
 }

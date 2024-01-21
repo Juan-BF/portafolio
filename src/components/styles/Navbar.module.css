@@ -10,7 +10,7 @@
     top: 0;
     align-items: center;
     background-color: #46416736;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -32,6 +32,7 @@
     align-items: center;
     justify-content: space-between;
     
+    
 }
 .menuItems li{
     display: flex;
@@ -49,7 +50,7 @@
 .menuItems li:last-child {
     background: linear-gradient(to right, #00e5ff, #7144c6);
     border-radius: 10px;
-    padding: 5px;
+    padding: 2px 20px;
   }
   
 .menuItems a::after {

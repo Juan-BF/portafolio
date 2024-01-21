@@ -15,13 +15,17 @@ function App() {
   return (
     <>
       <div className={styles.App}>
-        <Navbar />
-        <Hero />
-        <About />
-        <Formation/>
-        <Proyectos/>
-        <Contact/>
-        <Footer/>
+        <header>
+          <Navbar />
+        </header>
+        <main className={styles.Boxmain}>
+          <Hero />
+          <Proyectos />
+          <Formation />
+          <About />
+          <Contact />
+        </main>
+        <Footer />
       </div>
     </>
 

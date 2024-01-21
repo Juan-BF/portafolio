@@ -27,7 +27,7 @@
 }
 
 .informationbox {
-    max-width: 65%;
+    /* max-width: 65%; */
     width: 65%;
     padding: 30px;
     background: var(--background-color);
@@ -117,7 +117,7 @@
         flex-direction: column;
         align-content: center;
         flex-wrap: wrap;
-        width: 80%;
+        /* width: 80%; */
 
 
     }
@@ -128,11 +128,15 @@
     }
 
 
-    .informationbox img {
-
+    .formationItem img {
         width: 50%;
-        height: 50%;
+        height: 30%;
     }
+    .formationItem:nth-child(2) img {
+        width: 70%;
+        height: 40%;
+    }
+
 
     .infoUni {
         overflow-y: auto;
@@ -142,7 +146,24 @@
 }
 
 @media screen and (max-width: 700px) {
-    .formationItem img {
-        display: none;
+    .formationItem{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
     }
+    
+}
+
+@media screen and (max-width: 650px) {
+     .informationbox{
+    width: 95%;
+    }
+    .formation{
+        align-items: center;
+        >h1{
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+    }
+    
 }

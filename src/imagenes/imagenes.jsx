@@ -11,15 +11,6 @@ import proyectoGithubAPI from '../imagenes/proyectos/proyectoGithubAPI.png'
 import githubP from '../imagenes/redes/githubP.png'
 import visualizar from '../imagenes/redes/visualizar.png'
 
-// import link from '../imagenes/proyectos/proyectoGithubAPI.png'
-// import proyectoGithubAPI from '../imagenes/proyectos/proyectoGithubAPI.png'
-// import proyectoGithubAPI from '../imagenes/proyectos/proyectoGithubAPI.png'
-
-
-
-// import huddle from '../imagenes/proyectos/huddle.png';
-
-
 
 
 export default{

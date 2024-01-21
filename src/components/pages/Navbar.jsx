@@ -21,7 +21,7 @@ export const Navbar = () => {
           <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
             <li><a href="#About">Sobre</a></li>
             <li><a href="#Formacaos">Formação</a></li>
-            <li><a href="#Projectos">Projectos</a></li>
+            <li><a href="#Projectos">Projetos</a></li>
             <li><a href="#Contato">Contato</a></li>
           </ul>
         </div>

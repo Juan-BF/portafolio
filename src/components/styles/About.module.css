@@ -8,11 +8,13 @@
     align-content: center;
     flex-direction: column;
 }
-.boxAbout h1{
+
+.boxAbout h1 {
     font-weight: 200;
     font-size: 2.5rem;
     margin-bottom: 30px;
 }
+
 #About {
     opacity: 0;
     transform: translateY(20px);
@@ -25,29 +27,27 @@
 }
 
 .about {
-    min-width: 500px;
-    width: 65%;
+    width: 67%;
     padding: 30px;
     background: var(--background-color);
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 60px;
-    /* border-top: solid 2px #14a5df; */
-    /* border-bottom: solid 2px rgba(15, 138, 187, 0.719); */
     border-radius: 15px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    /* filter: blur(1px); */
-    /* box-shadow: -20px 20px 20px -1px rgb(23 33 39); */
+
+
+
+
+    
 }
 
 
 
 
 .aboutImg {
-
     -webkit-animation: morph 8s ease-in-out infinite;
     animation: morph 8s ease-in-out infinite;
     background-image: url(/src/imagenes/about/foto.png);
@@ -60,7 +60,7 @@
     transition: all 1s ease-in-out;
     width: 20rem;
     filter: drop-shadow(-20px 20px 5px #1f3d5147);
-    margin: 0 0 0 50px;
+    margin: 0 15px 0 50px;
 
 }
 
@@ -128,6 +128,8 @@
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
+    cursor: pointer;
+    user-select: none;
 }
 
 .masInfo:hover {
@@ -165,53 +167,96 @@
     border-radius: 10px;
 }
 
-
-@media screen and (max-width: 1185px) {
+@media screen and (max-width: 1260px) {
     .about {
-        display: flex;
-        gap: 10px;
-        flex-wrap: nowrap;
-        align-items: center;
+        width: 70%;
+    }
+
+    .aboutImg {
+        display: none;
     }
 
     .aboutInf {
-        margin: 0;
-        text-indent: 0;
-        padding-bottom: 30px;
-        font-size: 1.2rem;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1810px) {
+    .aboutInf {
+
+        >p {
+            width: 80%;
+            margin: 2px;
+        }
+
+        >h1 {
+            margin-bottom: 0;
+        }
     }
 
-    .aboutInf h1 {
-        font-size: 1.8rem;
+    .bios p {
+        margin: 2px;
     }
 
-    .aboutInf p {
-        margin-top: 2px;
+    .about {
+        flex-wrap: nowrap;
     }
-
-    .bioCorta {
-        padding-bottom: 30px;
-    }
-
-    .aboutImg {
-        height: 50%;
-        width: 50%;
-    }
-
 
 }
 
-@media screen and (max-width: 700px) {
-    .about {
-        width: 80%;
-
+@media screen and (max-width: 840px) {
+    .aboutInf {
+        font-size: 11px;
     }
 
-    .aboutImg {
-        display: none;
+
+    .bios p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .aboutInf h1 {
+        margin: 0;
     }
 
-    .formationItem img {
-        display: none;
+    .aboutInf p {
+        margin: 0;
+    }
+
+    .aboutInf h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .aboutInf h1 {
+        font-size: 1.3rem;
+    }
+
+    .boxAbout {
+        padding: 10px;
+    }
+
+    .masInfo {
+        font-size: 0.9rem;
+    }
+
+    .aboutInf h1 {
+        text-indent: 0;
+    }
+
+    .masInfo {
+        text-indent: 0;
+    }
+
+    .boxAbout {
+        align-items: center;
+
+        >h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
     }
 }

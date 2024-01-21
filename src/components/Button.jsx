@@ -6,6 +6,7 @@ const Button = ({textInf}) => {
     <>
       <button className={styles.btnresumo}>
                                 <span></span>{textInf}
+                                
                             </button>
     </>
   )

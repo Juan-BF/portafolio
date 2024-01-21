@@ -60,15 +60,15 @@ const Contact = () => {
                     <div className={styles.formularioRe}>
                         <form ref={refForm} action="/procesar_formulario" method="post" onSubmit={handleSubmit}>
 
-                            <label htmlFor="username">Nombre:</label>
+                            <label htmlFor="username">Nome:</label>
                             <input type="text" id="username" name="username" value={formulario.username}
                                 onChange={handleChange} required />
 
-                            <label htmlFor="email">Correo electrónico:</label>
+                            <label htmlFor="email">E-mail:</label>
                             <input type="email" id="email" name="email" value={formulario.email}
                                 onChange={handleChange} required />
 
-                            <label htmlFor="message">Mensaje:</label>
+                            <label htmlFor="message">Mensagem:</label>
                             <textarea type="text" id="message" name="message" value={formulario.message}
                                 onChange={handleChange}></textarea>
 
