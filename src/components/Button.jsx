@@ -1,19 +1,19 @@
-import styles from "./styles/Hero.module.css"
+import styles from './styles/Button.module.css'
 import PropTypes from 'prop-types';
 
-const Button = ({textInf}) => {
+const Button = ({ actionGit, actionWeb }) => {
   return (
     <>
-      <button className={styles.btnresumo}>
-                                <span></span>{textInf}
-                                
-                            </button>
+      <a href={actionGit} className={styles.btn}><span>GitHub</span></a>
+      <a href={actionWeb} className={styles.btn}><span>Demo</span></a>
     </>
   )
 }
 
 Button.propTypes = {
-  textInf: PropTypes.string.isRequired, 
+  actionGit: PropTypes.string.isRequired,
+  actionWeb: PropTypes.string.isRequired,
+
 };
 
 export default Button

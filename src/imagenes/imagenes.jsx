@@ -6,8 +6,7 @@ import react from '../imagenes/stack/react.png';
 import sass from '../imagenes/stack/sass.png';
 import tailwindcss from '../imagenes/stack/tailwindcss.png';
 import huddle from '../imagenes/proyectos/huddle.png'
-import proyectoGithubAPI from '../imagenes/proyectos/proyectoGithubAPI.png'
-
+import imgGithubAPI from '../imagenes/proyectos/imgGithubAPI.png'
 import githubP from '../imagenes/redes/githubP.png'
 import visualizar from '../imagenes/redes/visualizar.png'
 
@@ -23,7 +22,7 @@ export default{
     'sass': sass,
     'tailwindcss': tailwindcss,
     'huddle':huddle,
-    'proyectoGithubAPI':proyectoGithubAPI,
+    'proyectoGithubAPI':imgGithubAPI,
 // redes
     'githubP':githubP,
     'visualizar':visualizar,

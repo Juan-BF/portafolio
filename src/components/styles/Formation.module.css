@@ -4,7 +4,6 @@
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
-
 }
 
 .formation h2 {
@@ -27,8 +26,8 @@
 }
 
 .informationbox {
-    /* max-width: 65%; */
-    width: 65%;
+    border: 1px solid #17152f;
+    width: 75%;
     padding: 30px;
     background: var(--background-color);
     display: flex;
@@ -132,6 +131,7 @@
         width: 50%;
         height: 30%;
     }
+
     .formationItem:nth-child(2) img {
         width: 70%;
         height: 40%;
@@ -146,24 +146,26 @@
 }
 
 @media screen and (max-width: 700px) {
-    .formationItem{
-    height: 100%;
-    width: 100%;
-    padding: 10px;
+    .formationItem {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
     }
-    
+
 }
 
 @media screen and (max-width: 650px) {
-     .informationbox{
-    width: 95%;
+    .informationbox {
+        width: 95%;
     }
-    .formation{
+
+    .formation {
         align-items: center;
-        >h1{
+
+        >h1 {
             font-size: 1.8rem;
             margin-bottom: 5px;
         }
     }
-    
+
 }

@@ -1,0 +1,25 @@
+
+.btn{
+
+    text-decoration: none;
+    display: inline-flex;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #91a9b350;
+    color: #b7afbb;
+    position: relative;
+    margin: 10px 10px 0 0;
+}
+
+.btn span:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+   backdrop-filter: blur(10px);
+}

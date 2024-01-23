@@ -10,5 +10,6 @@
     --color-AzulClaro:#00e5ff;
     /*Fuentes*/
     --font-robot: "Roboto";
-    --background-color: radial-gradient(61.89% 120.81% at 14.2% -17.19%,#2f2663 0,#27214b 100%);
+    --background-color: #351d5314;;
+    /* --background-color: radial-gradient(61.89% 120.81% at 14.2% -17.19%,#2f2663 0,#27214b 100%); */
 }

@@ -23,7 +23,7 @@ const About = () => {
                         <div className={styles.bios}>
                             {
                                 mostrarMas ? <p className={styles.bioCorta} id="bioCorta">
-                                    Sou Um programador <strong>Front-End</strong> com um objetivo muito claro tornar-me um profissional <strom>Full-Stack</strom>. Desde que me apaixonei por programação, dediquei meu esforço ao estudo e desenvolvimento com <strong>HTML, CSS, JAVA-SCRIPT, REACT </strong> e a cada dia me esforço para avançar mais, explorando também o mundo do <strong>Back-End</strong>.
+                                    Sou Um programador <strong>Front-End</strong> com um objetivo muito claro tornar-me um profissional <strom>Full-Stack</strom>. Desde que me apaixonei por programação, dediquei meu esforço, estudo e desenvolvimento com <strong>HTML, CSS, JAVA-SCRIPT, REACT </strong> e a cada dia me esforço para avançar mais, explorando também o mundo do <strong>Back-End</strong>.
                                 </p> :
                                     <p className={styles.bioCompleta} id="bioLarga">
                                     Olá, sou Juan Bejarano. Apaixonei-me por programação aos 14 anos, quando tive meu primeiro contato com C#. Comecei com projetos básicos, criando aplicações de desktop e sistemas de vendas. Esse primeiro contato me motivou a iniciar a carreira de informática, onde tive a oportunidade de explorar várias linguagens de programação como<strong> Python, Java, JavaScript, C, C#, Pascal, </strong>além de me aprofundar em marcação com<strong> HTML e CSS</strong>.

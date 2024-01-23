@@ -49,7 +49,7 @@
 
     >p {
         color: var(--color-text);
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         margin: 15px 0 30px;
         padding: 10px 0;
         width: 70%;
@@ -59,7 +59,6 @@
         }
 
         >span:last-child {
-            /* color: #00e2f1; */
             color: #ec8f1e;
         }
     }
@@ -69,7 +68,7 @@
     margin-top: 35px;
     display: flex;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 15px;
 
 }
 
@@ -257,7 +256,7 @@
 }
 
 .Btn {
-    width: 50px;
+    width: 80px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -284,6 +283,7 @@
     transition: all .3s;
     border: 1px solid rgba(80, 36, 142, 0.349);
     z-index: 2;
+    color: #fff;
 }
 
 .bg {
@@ -309,6 +309,11 @@
     background-color: rgba(173, 66, 245, 0.055);
     backdrop-filter: blur(10px);
     transform: translateY(-12px);
+}
+
+
+.Btn:hover .svgContainer p {
+    opacity: 1;
 }
 
 .svgContainerw {
@@ -352,6 +357,7 @@
     transition: all .5s ease-in-out;
     animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
     transform: perspective(400px) rotateY(10deg) rotateX(20deg);
+    margin-left: 20px;
 
     >span {
         display: flex;
