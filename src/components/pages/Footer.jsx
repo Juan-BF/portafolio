@@ -20,7 +20,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className={styles.footerInf}>
-          <span>© 2024 JBejarano. Todos os direitos reservados.</span>
+          <span>© 2024 JBejarano.</span>
           {/* <img src={logo} alt="imagen de logo" />
           <span>ejarano</span> */}
         </div>

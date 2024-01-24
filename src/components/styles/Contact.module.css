@@ -7,15 +7,16 @@
 }
 
 .formulario {
-    color: #cfcfcf;
+    margin-top: 10%;
+    color: rgb(148 163 184);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-left: 30px;
-    width: 65%;
+    width: 75%;
     height: 500px;
     border-radius: 15px;
-    background: var(--background-color);
+    border: 1px solid #ffffff0f;
 }
 
 .formulario h1 {
@@ -26,18 +27,17 @@
 }
 
 .formularioInf p {
-    text-indent: 50px;
     line-height: 1.6;
-    width: 500px;
-    font-size: 1.5rem;
+    width: 352px;
+    font-size: 1.2rem;
 
 }
 
 .formularioInf {
     width: 50%;
-    height: 100%;
+    height: 40%;
     padding: 20px;
-    border-right: 1px solid #14a5df;
+    border-right: 1px solid #14a5df33;
 }
 
 .formularioRe {
@@ -56,8 +56,8 @@
 
 .formularioRe form input {
     background-color: #0d1e2e;
-    width: 500px;
-    height: 42px;
+    width: 100%;
+    height: 40px;
     border: 1px solid #2e83bb;
     border-radius: 15px;
     transition: border-color 0.3s ease-in-out;
@@ -82,7 +82,7 @@
 
 .formularioRe form textarea {
     background-color: #0d1e2e;
-    width: 500px;
+    width: 100%;
     height: 150px;
     border: 1px solid #2e83bb;
     border-radius: 15px;
@@ -96,7 +96,6 @@
 
 .formularioRe form input[type="submit"] {
     background-color: #3c5863;
-    width: 200px;
     color: #fff;
     padding: 10px 15px;
     cursor: pointer;
@@ -105,21 +104,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 70%;
 }
-.formularioRe form input[type="submit"]:hover{
+
+.formularioRe form input[type="submit"]:hover {
     background-color: #37515a;
 }
-.formularioRe form input[type="submit"]:active{
+
+.formularioRe form input[type="submit"]:active {
     background-color: #24363b;
 }
 
 
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1185px) {
     .formularioInf h1 {
-        padding: 5px 3px 10px ;
+        padding: 5px 3px 10px;
         font-size: 1.5rem;
-        
+
     }
 
     .formulario p {
@@ -128,7 +130,7 @@
     }
 
     .formulario {
-        width: 50%;
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -136,7 +138,8 @@
         align-items: center;
         padding: 0;
     }
-    .formularioInf{
+
+    .formularioInf {
         width: 100%;
         height: 100%;
         border: none;
@@ -144,37 +147,46 @@
         flex-direction: column;
         align-items: center;
     }
-    .formularioInf h1{
-            font-size: 1.5rem;
-        
+
+    .formularioInf h1 {
+        font-size: 1.5rem;
+
     }
-    .formularioRe{
+
+    .formularioRe {
         width: 100%;
         margin: 0;
     }
-    .formulario form{
+
+    .formulario form {
         width: 80%;
     }
+
     .formularioRe form input {
         width: 100%;
     }
+
     .formularioRe form textarea {
         width: 100%;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .formulario{
+    .formulario {
         display: flex;
         flex-direction: column;
         width: 95%;
     }
-    .formularioInf{
+
+    .formularioInf {
         width: 100%;
     }
-    .formularioRe{
+
+    .formularioRe {
         width: 100%;
     }
-   .formularioRe form{
-    width: 80%;
-   }
+
+    .formularioRe form {
+        width: 80%;
+    }
 }

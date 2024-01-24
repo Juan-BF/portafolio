@@ -168,12 +168,13 @@
 
 @media screen and (max-width: 1185px) {
     .container {
-
         display: flex;
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        gap: 0;
+        height: auto;
     }
 
     .content {
@@ -182,8 +183,9 @@
         flex-wrap: wrap;
         gap: 10px;
         flex-direction: column-reverse;
-        align-content: center;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
+        align-content: flex-end;
+        align-items: flex-start;
     }
 
     .stack {
@@ -195,6 +197,15 @@
 }
 
 @media screen and (max-width: 980px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 0;
+        height: auto;
+    }
 
     .fotop {
         display: none;
@@ -227,18 +238,18 @@
 
     .social {
         display: flex;
-        margin-left: 15px;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
         align-content: flex-end;
-        justify-content: space-around;
+        justify-content: flex-start;
+        align-items: center;
     }
 }
 
 @media screen and (max-width: 768px) {
     .informacion {
-        margin: 40px 20px 10px 20px;
+        /* margin: 40px 20px 10px 20px; */
+        max-width: 100%;
     }
 
     .informacion h1 {
@@ -247,6 +258,7 @@
 
     .informacion p {
         font-size: 1rem;
+        width: 100%;
     }
 
     .stack h3 {
