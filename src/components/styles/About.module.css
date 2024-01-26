@@ -43,7 +43,7 @@
 .aboutImg {
     -webkit-animation: _morph_ocwkb_1 8s ease-in-out infinite;
     animation: _morph_ocwkb_1 8s ease-in-out infinite;
-    background-image: url(/portafolio/src/imagenes/about/foto.png);
+    background-image: url(/src/imagenes/about/foto.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #6271789c;
