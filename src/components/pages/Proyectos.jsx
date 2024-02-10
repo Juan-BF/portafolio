@@ -33,7 +33,9 @@ const Proyectos = () => {
                 <h4>Adaptabilidade Responsiva.✅</h4>
 
                 <div>
-                  <Button />
+                  <Button 
+                  actionGit="https://github.com/Juan-BF/portafolioivanc"
+                  actionWeb="https://ivanacosta.vercel.app/"/>
                 </div>
               </div>
 
@@ -43,8 +45,10 @@ const Proyectos = () => {
               <div className={styles.carInf}>
                 <h1>Sign Animado</h1>
                 <p>Projeto GitHub API: Simplifica o acesso e manipulação de dados no GitHub, facilitando a integração e automação de tarefas para desenvolvedores.</p>
-                <Button />
-
+                <Button 
+                actionGit="https://github.com/Juan-BF/login"
+                actionWeb="https://juan-bf.github.io/login/"  
+                />
               </div>
             </li>
             <li className={styles.cards}>
@@ -52,7 +56,10 @@ const Proyectos = () => {
               <div className={styles.carInf}>
               <h1>Projeto GitHub Api</h1>
                 <p>Projeto GitHub API: Simplifica o acesso e manipulação de dados no GitHub, facilitando a integração e automação de tarefas para desenvolvedores.</p>
-                <Button />
+                <Button
+                actionGit="https://github.com/Juan-BF/Quest-Api-Github"
+                actionWeb="https://juan-bf.github.io/Quest-Api-Github/"
+                />
 
               </div>
             </li>

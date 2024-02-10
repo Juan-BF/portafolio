@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const Button = ({ actionGit, actionWeb }) => {
   return (
     <>
-      <a href={actionGit} className={styles.btn}><span>GitHub</span></a>
-      <a href={actionWeb} className={styles.btn}><span>Demo</span></a>
+      <a href={actionGit} className={styles.btn} target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+      <a href={actionWeb} className={styles.btn} target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
     </>
   )
 }
