@@ -34,7 +34,7 @@ const Hero = () => {
                                 </span>
                                 <span className={`${styles.bg} ${styles.bgw}`}></span>
                             </a>
-                            <a href="www.linkedin.com/in/bejaranojuan" target="_blank" rel="noopener noreferrer" className={styles.Btn}>
+                            <a href="https://www.linkedin.com/in/bejaranojuan/" target="_blank" rel="noopener noreferrer" className={styles.Btn}>
                                 <span className={`${styles.svgContainer} ${styles.svgContainerl}`}>
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" width="50px" height="2em">
                                         <g fill="#ffffff" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none">

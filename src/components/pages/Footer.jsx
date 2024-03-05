@@ -14,7 +14,7 @@ const Footer = () => {
             <a href="https://github.com/Juan-BF" target="_blank" rel="noopener noreferrer">
               <img src={github} alt="Github Perfil" />
             </a>
-            <a href="https://www.linkedin.com/in/juan-vicente-bejarano-fernandez-062089239/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Linkedin Perfil" /></a>
+            <a href="https://www.linkedin.com/in/bejaranojuan/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Linkedin Perfil" /></a>
             <a href="https://api.whatsapp.com/send?phone=55054996959667" target="_blank" rel="noopener noreferrer"><img src={whasapp} alt="Linkedin Perfil" /></a>
             <a href="mailto:jjuanbr97@gmail.com" target="_blank" rel="noopener noreferrer"><img src={gmail} alt="Linkedin Perfil" /></a>
           </ul>
