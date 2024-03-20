@@ -49,7 +49,7 @@ const Hero = () => {
                             </a>
                             <a href="https://api.whatsapp.com/send?phone=55054996959667" target="_blank" rel="noopener noreferrer"><div></div>
                             </a>
-                            <a className={styles.btnBoox} href="https://drive.google.com/file/d/1hLRg-QS15Z606knVmoskAAf8GsAZ_hMw/view" target="_blank" rel="noopener noreferrer" >
+                            <a className={styles.btnBoox} href="https://drive.google.com/file/d/1qxt8YgTqv41iVrFPHT0-q_P4YQGK1ouW/view" target="_blank" rel="noopener noreferrer" >
                                 <span> Currículo Vitae</span>
                             </a>
                         </div>
